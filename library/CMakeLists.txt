@@ -22,6 +22,7 @@ SET_SOURCE_FILES_PROPERTIES(${GENERATED_HDRS} PROPERTIES HEADER_FILE_ONLY TRUE G
 SET(MAIN_HEADERS
 include/Internal.h
 include/DFHack.h
+include/Clipboard.h
 include/Console.h
 include/Core.h
 include/ColorText.h
@@ -51,6 +52,7 @@ include/wdirent.h
 )
 
 SET(MAIN_SOURCES
+Clipboard.cpp
 Core.cpp
 ColorText.cpp
 DataDefs.cpp
